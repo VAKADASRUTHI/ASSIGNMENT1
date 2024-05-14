@@ -88,7 +88,7 @@ class Program
         Console.WriteLine("List of Students:");
         foreach (var student in students)
         {
-            Console.WriteLine($"Student: {student.Name}");
+            Console.WriteLine("Student: {student.Name}");
 
             foreach (var subject in student.Marks)
             {
@@ -106,7 +106,7 @@ class Program
         string name = Console.ReadLine();
 
         students.Add(new Student(name));
-        Console.WriteLine($"Student '{name}' added successfully.");
+        Console.WriteLine("Student '{name}' added successfully.");
     }
 
     static void UpdateStudentMarks()

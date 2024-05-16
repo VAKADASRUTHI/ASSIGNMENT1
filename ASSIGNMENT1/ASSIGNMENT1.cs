@@ -93,7 +93,7 @@ class Program
             foreach (var subject in student.Marks)
             {
                 double averageMark = student.GetAverageMark(subject.Key);
-                Console.WriteLine($"- {subject.Key}: Marks - {string.Join(", ", subject.Value)}, Average Mark - {averageMark}");
+                Console.WriteLine({subject.Key}: Marks - {string.Join(", ", subject.Value)}, Average Mark - {averageMark}");
             }
 
             Console.WriteLine();
